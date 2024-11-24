@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./assets/images/logo.png" alt="Feven's Logo" class="logo" />
+      <nav aria-label="Main Navigation" class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="education.html" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="more.html" class="nav-link">More</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="main-title">Contact Me!</h1>
+      <form action="/submit" class="contact-form">
+        <label for="name" class="form-label">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+          class="form-input"
+        />
+
+        <label for="email" class="form-label">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+          class="form-input"
+        />
+
+        <label for="message" class="form-label">Message:</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Enter your message"
+          rows="4"
+          required
+          class="form-textarea"
+        ></textarea>
+
+        <button type="submit" class="form-button">Submit</button>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="footer-text">&copy; Feven Issayas. All Rights Reserved.</div>
+      <div class="footer-links">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a
+              href="https://github.com/fevenissayas"
+              target="_blank"
+              title="GitHub"
+              class="footer-link"
+            >
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </li>
+          <li class="footer-item">
+            <a
+              href="https://linkedin.com/in/feven-mulugeta-625ba4250/"
+              target="_blank"
+              title="LinkedIn"
+              class="footer-link"
+            >
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </li>
+          <li class="footer-item">
+            <a
+              href="mailto:fevennissayas@gmail.com"
+              title="Email"
+              class="footer-link"
+            >
+              <i class="fas fa-envelope"></i> Email
+            </a>
+          </li>
+          <li class="footer-item">
+            <a
+              href="https://t.me/Phoebbee"
+              target="_blank"
+              title="Telegram"
+              class="footer-link"
+            >
+              <i class="fab fa-telegram"></i> Telegram
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
